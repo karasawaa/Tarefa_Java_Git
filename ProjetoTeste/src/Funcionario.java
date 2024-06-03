@@ -2,7 +2,7 @@ public class Funcionario {
 
     int matricula;
     String nome;
-
+  
     public Funcionario() {
 
     }
@@ -11,6 +11,7 @@ public class Funcionario {
         this.matricula = matricula;
         this.nome = nome;
     }
+
 
     public int getMatricula() {
         return matricula;
@@ -31,4 +32,5 @@ public class Funcionario {
     public String toString() {
         return "Matricula: " + matricula + ", nome: " + nome;
     }
+
 }
